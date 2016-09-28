@@ -1,0 +1,6 @@
+com\ourfuture\back_front\dao\UserDAO.class
+com\ourfuture\back_front\controller\UserController.class
+com\ourfuture\back_front\service\IUserService.class
+com\ourfuture\back_front\basedao\BaseDAO.class
+com\ourfuture\back_front\service\UserServiceImpl.class
+com\ourfuture\back_front\bean\User.class
