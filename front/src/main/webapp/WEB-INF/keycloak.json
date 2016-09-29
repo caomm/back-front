@@ -1,8 +1,10 @@
 {
-  "realm": "platform",
-  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2ZlvqiTRhO86IxW3REP4ouGlvewQqsRPrbj1X98f4gic//AjtZmEdvw17010bRJZHfSoM2B6davNePZVDzEUH3rVyezhPJXdPWcMoglTJzI1bOwaPNanrpxLHxyJFkYfIzYcCTiaYzW7iT0gW/ml7J+t26IrrhqlOS3sWd5K0HyX9PPbJXSYmv5vHwRnVNq/AdSTr2t1Vyf60UOoARBy6T+CNjZtUQHXHjXSgN0bp+m7O6m1oBIZ61uLU6sHjncAUS1Ey/2q58rKgliUC7u4xPKAC5cO++dVaMnmm5V1cTQDksekI+IAclKbL35t5HCLp6Rw5IWwMwEgHXr4GO1tQwIDAQAB",
-  "auth-server-url": "http://localhost:8081/auth",
+  "realm": "master",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo8LEZ/DRJx42OiI+1ZINBdDhOCi/74am6xsIzuizC5ogn4vLEU3mIx7lFYiPcb6GAkHwyhvvRhUFJpGDVrczUJ5ZWmLPaHKwWLk5UtFrD5f94Ugyk8NPA4BmHCPr9xBYgiQYPUPP0nkSry+DFzusC1yfb1ucEEhLxu4dO07N4mWEXy6rUn1UWQmp7bC0F/1+2nx3iyA9FsbKuX7Zjn5mDyGHw/fxgl+UC6h7EZwgmi7yCevBBq9GZtZGW7XNBEtg/z+gsBHvZ75k63RI402IZ+jHUALKcxy/ksSIiv/LD169lWclkyfIIQ2tqkURypXvTBTxYrQArVuv6M8QV80cYQIDAQAB",
+  "auth-server-url": "http://localhost:8080/auth",
   "ssl-required": "external",
-  "resource": "front",
-  "public-client": true
+  "resource": "back-front",
+  "credentials": {
+    "secret": "89065f78-d156-4185-9c28-53684e397c17"
+  }
 }

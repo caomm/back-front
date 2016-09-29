@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="front:war exploded">
+    <output-path>$PROJECT_DIR$/front/target/front</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="front" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.keycloak:keycloak-servlet-filter-adapter:1.9.0.Final" />
+          <element id="library" level="project" name="Maven: org.keycloak:keycloak-core:1.9.0.Final" />
+          <element id="library" level="project" name="Maven: org.keycloak:keycloak-common:1.9.0.Final" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.4" />
+          <element id="library" level="project" name="Maven: org.keycloak:keycloak-adapter-spi:1.9.0.Final" />
+          <element id="library" level="project" name="Maven: org.keycloak:keycloak-servlet-adapter-spi:1.9.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" />
+          <element id="library" level="project" name="Maven: org.keycloak:keycloak-adapter-core:1.9.0.Final" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.4" />
+          <element id="library" level="project" name="Maven: com.thetransactioncompany:cors-filter:2.5" />
+          <element id="library" level="project" name="Maven: com.thetransactioncompany:java-property-utils:1.9.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/front/target/front/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="front/web/Web" />
+    </root>
+  </artifact>
+</component>
